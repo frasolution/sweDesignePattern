@@ -3,7 +3,9 @@ package Builder;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Sample sampleSample = new Sample();
+		sampleSample.setName("test").setNumber(42);
+		System.out.println(sampleSample.printThis());
 
 	}
 
