@@ -21,8 +21,8 @@ public class Sample {
 		this.name = name;
 		return this;
 	}
-	public String printThis(){
-		return name + " " + number;
+	public void printThis(){
+		System.out.println(name + " " + number);
 	}
 	
 	
